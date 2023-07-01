@@ -1,2 +1,2 @@
-# Pet-proejcts
+# Pet-projects
 Some pets 
