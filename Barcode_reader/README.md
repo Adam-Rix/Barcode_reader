@@ -25,7 +25,7 @@ By automating these steps, companies can efficiently process large amounts of ba
 	2. Run the main script:
 		
 		'''\python 
-			python main.py
+			__init__.py
 		'''
 #
 *Functionality*
