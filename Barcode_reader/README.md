@@ -18,7 +18,7 @@ By automating these steps, companies can efficiently process large amounts of ba
 	
 	If u have Python 3.10:
 	
-	0. Download the project and 
+	0. Download the project.
 	
 	1. Prepare barcode images in the specified folder barcodes. Make sure the images contain valid barcode data for demonstration purposes.
 
