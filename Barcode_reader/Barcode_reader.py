@@ -23,11 +23,13 @@ def main():
 
                 data = barcode.data.decode('utf-8')
 
-                clean_data_1 = remover_num(data)  # Saving parts of name
-                clean_data_2 = remover_words(data)  # Saving parts of DoB
+                #print(data)                      # A-00650nerealn06slozhny54barcode-Z and A-1988nerealnO08slozhny24barcode-Z
+                
+                clean_data_1 = remover_num(data)  # Saving parts of name 
+                clean_data_2 = remover_words(data)  # Saving parts of DoB 
 
-                print('Your name: ' + clean_data_1)
-                print('Your dd/mm/yy: ' + clean_data_2)
+                print('Your name: ' + clean_data_1)    # OUTPUT: nerealn slozhny barcode and 00650       06       54
+                print('Your yy/mm/dd: ' + clean_data_2)    # OUTPUT: nerealnO slozhny barcode  and 1988        08       24
                 #print(barcode.type)  # CODE128
 
             cv.imshow("Our Barcode", image)
