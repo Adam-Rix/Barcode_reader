@@ -1,2 +1,2 @@
 # BarcodeReader
-Some pets 
+- Pet project about system of manipulating of data from barcodes
