@@ -1,2 +1,2 @@
-# Pet-projects
+# BarcodeReader
 Some pets 
